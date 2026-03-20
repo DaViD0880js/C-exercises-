@@ -1,4 +1,4 @@
 # C-exercises-
 1 - 17
 
-Testados
+Testados. Arquivo ZIP pronto 
