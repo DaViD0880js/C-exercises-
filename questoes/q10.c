@@ -12,7 +12,7 @@ scanf("%f", &tempo);
 
 velocidadeM = (distancia * 1000) / (tempo * 60);
 
-printf("\nO valor da velocidade do projetil eh %fm/s\n", velocidadeM);
+printf("\nO valor da velocidade media do projetil = %fm/s\n", velocidadeM);
 
   return 0;
   
