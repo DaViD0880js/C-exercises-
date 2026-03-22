@@ -5,7 +5,7 @@ int main (void) {
 
     double raio, potencia, volume;
 
-    printf("\nDigite o valor do raio da esfera:\n");
+    printf("\nDigite o valor do raio da esfera em cm:\n");
     scanf("%lf", &raio);
 
     potencia = pow(raio, 3);
