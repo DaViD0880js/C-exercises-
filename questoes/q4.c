@@ -2,17 +2,17 @@
 
 int main (void) {
 
-float primeiroN, segundoN, soma;
+float a, b, soma;
 
   printf("Digite um numero qualquer\n\n(Caso seja decimal, use ''.'' para dividir as casas):\n");
-  scanf("%f", &primeiroN);
+  scanf("%f", &a);
 
   printf("\n\nDigite outro numero qualquer:\n");
-  scanf("%f", &segundoN);
+  scanf("%f", &b);
   
-  soma = primeiroN + segundoN;
+  soma = a + b;
   
-  printf("\n%f + %f = %f\n", primeiroN, segundoN, soma);
+  printf("\n%f + %f = %f\n", a, b, soma);
 
   return 0;
 }
