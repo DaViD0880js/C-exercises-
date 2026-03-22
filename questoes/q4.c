@@ -4,8 +4,11 @@ int main (void) {
 
 float primeiroN, segundoN, soma;
 
-  printf("Digite 2 numeros com um unico espaço entre eles\n\n(Caso algum numero seja decimal, use ''.''):");
-  scanf("%f %f", &primeiroN, &segundoN);
+  printf("Digite um numero qualquer\n\n(Caso o numero seja decimal, use ''.''):\n");
+  scanf("%f", &primeiroN);
+
+  printf("\n\nDigite outro numero qualquer:\n");
+  scanf("%f", &segundoN);
   
   
   soma = primeiroN + segundoN;
