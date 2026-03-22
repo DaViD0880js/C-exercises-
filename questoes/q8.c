@@ -9,7 +9,7 @@ int main (void) {
 	
 	fahreinheit = (celsius * 1.8) + 32;
 	
-	printf("A temperatura em Fahreinheit eh %f", fahreinheit);
+	printf("A temperatura convertida em Fahreinheit = %f F", fahreinheit);
 	
 
   return 0;
