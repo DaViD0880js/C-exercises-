@@ -16,7 +16,7 @@ int main (void) {
 	
 	volume = comprimento * largura * altura;
 	
-	printf("O valor do volume da caixa eh %fcm3 ", volume);
+	printf("O valor do volume da caixa = %fcm3 ", volume);
 	
 
   return 0;
