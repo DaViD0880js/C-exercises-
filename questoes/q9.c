@@ -2,7 +2,6 @@
 
 int main (void) {
 	
-	
 	float comprimento, largura, altura, volume;
 	
 	printf("\nDigite o valor do comprimento em cm:\n");
@@ -18,6 +17,5 @@ int main (void) {
 	
 	printf("O valor do volume da caixa = %fcm3 ", volume);
 	
-
   return 0;
 }
