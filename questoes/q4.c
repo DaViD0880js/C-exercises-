@@ -10,7 +10,6 @@ float primeiroN, segundoN, soma;
   printf("\n\nDigite outro numero qualquer:\n");
   scanf("%f", &segundoN);
   
-  
   soma = primeiroN + segundoN;
   
   printf("\n%f + %f = %f\n", primeiroN, segundoN, soma);
