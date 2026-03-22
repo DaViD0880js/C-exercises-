@@ -5,8 +5,14 @@ int main (void) {
 	
 	float comprimento, largura, altura, volume;
 	
-	printf("\nDigite o valor respectivo do comprimento, largura e altura, com um espaco entre os valores:\n");
-	scanf("%f %f %f", &comprimento, &largura, &altura);
+	printf("\nDigite o valor do comprimento em cm:\n");
+	scanf("%f", &comprimento);
+	
+	printf("\nDigite o valor da largura em cm:\n");
+	scanf("%f", &largura);
+
+	printf("\nDigite o valor da altura em cm:\n");
+	scanf("%f", &altura);
 	
 	volume = comprimento * largura * altura;
 	
