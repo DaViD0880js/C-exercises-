@@ -9,7 +9,7 @@ int main (void) {
 	
 	medidaM = 0.3048 * medidaPes;
 	
-	printf("\nO valor da medida convertido em metros = %f\n", medidaM);
+	printf("\nO valor da medida convertido em metros = %fm\n", medidaM);
 	
 
   return 0;
