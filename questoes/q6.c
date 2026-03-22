@@ -4,8 +4,14 @@ int main (void) {
 
 float numero1, numero2, numero3, soma, media;
 
-  printf("Informe 3 numeros com um unico espaco entre eles:\n");
-  scanf("%f %f %f", &numero1, &numero2, &numero3);
+  printf("Informe um numero qualquer:\n");
+  scanf("%f", &numero1);
+
+  printf("Informe um segundo numero:\n");
+  scanf("%f", &numero2);
+
+  printf("Informe um terceiro numero:\n");
+  scanf("%f", &numero3);
   
   soma = numero1 + numero2 + numero3;
   
