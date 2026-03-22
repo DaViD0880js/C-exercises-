@@ -12,12 +12,12 @@ int main (void) {
 	
 	result = dividendo/divisor;
 	
-	if(divisor == 0) {
+	if (divisor == 0) {
 		
 		printf("\nNao e possivel realizar a divisao! (divisor = 0)");
 	}
-	else{
-	
+	else{ 
+		
 		printf("\n%f / %f = %f", dividendo, divisor, result);	
     }
     
