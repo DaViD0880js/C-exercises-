@@ -10,7 +10,7 @@ int main (void) {
 
     potencia = pow(raio, 3);
 
-    volume = (4 * 3.14159 * potencia)/3;
+    volume = (4.0/3.0) * 3.14159 * potencia;
 
     printf("\nO valor do volume da esfera = %lfcm3\n", volume);
 
