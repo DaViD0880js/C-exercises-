@@ -17,9 +17,12 @@ int main (void) {
 	
 	distancia = tempo * velocidade;
 	
-	litros = distancia/12;
+	litros = distancia/12.0;
 	
-	printf("\nO tempo percorrido pelo carro foi de %f horas\n\nA velocidade media foi de %f km/h\n\nA distancia percorrida foi de %f km\n\n%f litros foram usados\n", tempo, velocidade, distancia, litros);
+	printf("\nO tempo percorrido pelo carro foi de %f horas\n", tempo);
+	printf("\nA velocidade media foi de %f km/h\n", velocidade);
+	printf("\nA distancia percorrida foi de %f km\n", distancia);
+	printf("\n%f litros foram usados\n", litros);
 	
   return 0;
 }
