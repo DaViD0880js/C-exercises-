@@ -23,6 +23,6 @@ int main (void) {
 	printf("\nA velocidade media foi de %f km/h\n", velocidade);
 	printf("\nA distancia percorrida foi de %f km\n", distancia);
 	printf("\n%f litros foram usados\n", litros);
-	
+	//melhor escrever assim no caderno
   return 0;
 }
