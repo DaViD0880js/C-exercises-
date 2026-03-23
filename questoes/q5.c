@@ -4,7 +4,7 @@ int main (void) {
 	
 	float dividendo, divisor, result;
 	
-	printf("Digite o numero inteiro que sera o dividendo:\n");
+	printf("Digite o numero que sera o dividendo\n\n(Use '.' caso seja decimal):");
 	scanf("%f", &dividendo);
 	
 	printf("\nDigite o numero inteiro que sera o divisor:");
