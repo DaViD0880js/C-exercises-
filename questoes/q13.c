@@ -11,6 +11,5 @@ int main (void) {
 	
 	printf("\nO valor da medida convertido em metros = %fm\n", medidaM);
 	
-
   return 0;
 }
