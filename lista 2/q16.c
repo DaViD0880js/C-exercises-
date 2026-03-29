@@ -7,21 +7,19 @@ int main (void) {
     
     float quantia, valor;
     
-    printf("Digite quantas maçãs deseja comprar :");
+    printf("Digite quantas maÃ§Ã£s deseja comprar :");
     scanf("%f", &quantia);
     
     if(quantia <= 0) {
-    	printf("\nDigite uma quantia válida de maçãs!\n");
+    	printf("\nDigite uma quantia vÃ¡lida de maÃ§Ã£s!\n");
     	
 	} else if(quantia < 12) {
 		valor = quantia * 0.3;
-		
-		printf("\nO valor total das maças será de R$%.2f\n", valor);
+		printf("\nO valor total das maÃ§as serÃ¡ de R$%.2f\n", valor);
 
 	} else {
 		valor = quantia * 0.25;
-		
-		printf("\nO valor total das maçãs será de R$%.2f\n", valor);
+		printf("\nO valor total das maÃ§Ã£s serÃ¡ de R$%.2f\n", valor);
 	}
     
     return 0;
