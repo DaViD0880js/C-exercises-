@@ -7,12 +7,11 @@ int main (void) {
     
     int numero;
     
-    printf("Digite um número inteiro qualquer: ");
+    printf("Digite um nÃºmero inteiro qualquer: ");
 	scanf("%i", &numero);
 	
 	if(numero * 2 > 30) {
 		printf("\n%i multiplicado por 2 = %i", numero, numero*2);
-		
 	}
     
     return 0;
