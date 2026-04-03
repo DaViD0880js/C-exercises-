@@ -17,8 +17,8 @@ int main (void) {
 		x++;
 	}
 	
-	printf("Soma dos 20 primeiros números pares: %i\n", pares);
-	printf("\nSoma dos 20 primeiros números ímpares: %i", impares);
+	printf("Soma dos 20 primeiros nÃºmeros pares: %i\n", pares);
+	printf("\nSoma dos 20 primeiros nÃºmeros Ã­mpares: %i", impares);
     
     return 0;
 }
