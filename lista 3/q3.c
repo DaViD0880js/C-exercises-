@@ -12,7 +12,7 @@ int main (void) {
     scanf("%i", &x);
 
     if(x < 1 || x > 10) {
-        printf("Número invádilo");
+        printf("Número inválido");
 
     } else {
         
