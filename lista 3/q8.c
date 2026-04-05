@@ -4,31 +4,35 @@
 int main (void) {
     setlocale(LC_ALL, "Portuguese");
     
-	int x, maior = 0, menor = 9999;
-	float somaIdade = 0, idades = 0;
+	int idade, n = 1, maior = 0, menor = 9999;
+	float somaIdades = 0, quant = 0;
 
     printf("--Calculando Média das Idades--\n");
     
-    while (1) {
+    do {
     	printf("\nDigite a idade de um indivíduo");
     	printf("\n(Digite 0 para encerrar): ");
-    		
-    	if(x != 0 && x < menor) {
-    		menor = x;
+    	scanf("%i", &idade);
+			
+    	if(idade != 0 && idade < menor) {
+    		menor = idade;
 		}
-		if(x > maior) {
-    		maior = x;
+		
+		if(idade > maior) {
+    		maior = idade;
 		}
-    	somaIdade = somaIdade + x;
-    	idades++;
+		
+    	somaIdades = somaIdades + idade;
     	
-    	if(x == 0) {
-    		idades = idades - 1;
-    		printf("\nA média das idades é: %.2f", somaIdade/idades);
+    	if(idade == 0) {
+    		printf("\nA média das idades é: %.2f", somaIdades/quant);
     		printf("\nA menor idade é: %i", menor);
     		printf("\nA maior idade é: %i", maior);
-    	 break;
-		} 	
-	}
+    	 	n++;
+		}
+		quant++;
+		
+	} while (n == 1);
+	
     return 0;
 }

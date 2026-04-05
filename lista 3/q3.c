@@ -8,11 +8,11 @@ int main (void) {
     int x, y = 1;
 
     printf("--Tabuada simples--\n\n");
-    printf("Digite um nÃºmero inteiro entre 1 e 10: ");
+    printf("Digite um número inteiro entre 1 e 10: ");
     scanf("%i", &x);
 
     if(x < 1 || x > 10) {
-        printf("NÃºmero invÃ¡lido");
+        printf("Número inválido");
 
     } else {
         

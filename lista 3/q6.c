@@ -20,7 +20,6 @@ int main(void) {
 	} else {
 		maior = y;
 		menor =x;
-		
 	}
 	
 	while (menor <= maior){
@@ -35,7 +34,7 @@ int main(void) {
 	}
 	
 	printf("\nA soma dos pares entre %i e %i = %i\n", x, y, soma);
-	printf("A multiplicação dos ímpares entre %i e %i = %i\n",x, y, mult);
+	printf("A multiplicação dos ímpares entre %i e %i = %i\n", x, y, mult);
 
     return 0;
 }
