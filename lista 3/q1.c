@@ -7,7 +7,7 @@ int main (void) {
     printf("Contagem de 1 a 50:\n");
 
     while(x <= 50) {
-        printf(" %i\n", x);
+        printf(" %i ", x);
         x++;
     }
 

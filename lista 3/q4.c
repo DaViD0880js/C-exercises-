@@ -1,45 +1,45 @@
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
 
 int main (void) {
     
     setlocale(LC_ALL, "Portuguese");
     
-    int numero, quant = 0, checkPrimo = 2, pares = 0, impares =0, primos= 0, ehPrimo = 1;
+    int nmrDigitado, numero, contador = 1, checkPrimo, pares = 0, impares =0, primos= 0;
     
-    while(quant < 5) {
-    	printf("\nDigite um número: ");
-    	scanf("%i", &numero);
+    printf("-- Checagem de 10 Números --\n");
+    
+    while(contador < 11) {
+    	printf("\nDigite o %i° número: ", contador);
+    	scanf("%i", &nmrDigitado);
     	
-    	if(numero%2 == 0) {
+    	if(nmrDigitado%2 == 0) {
     		pares++;
-    		
 		} else {
 			impares++;
 		}
 		
-		if(numero > 1) {
-			while(checkPrimo <= (numero/2)) {
+		if(nmrDigitado == 2 || nmrDigitado == 3) {
+			primos++;
+		} else {
 			
-			if (numero%checkPrimo == 0){
-				ehPrimo = 0;
-				
+			numero = nmrDigitado;
+			checkPrimo = 0;
+			
+			while(numero > 0) {
+				if(nmrDigitado%numero == 0) {
+					checkPrimo++;
+				}
+				numero--;
 			}
-			checkPrimo++;
-		}
-		
-		if (ehPrimo == 1 || numero == 1) {
+			
+			if(checkPrimo == 2) {
 				primos++;
-			} 
+			}
 		}
-		
-		quant++;
-		
+		contador++;
 	}
-    
     printf("\n\nPares: %i\nÍmpares: %i\nPrimos: %i", pares, impares, primos);
-    
     
     return 0;
 }
