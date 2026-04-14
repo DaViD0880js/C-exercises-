@@ -7,11 +7,11 @@ int main (void) {
     
     int x = 1;
     
-    printf("Números pares entre 1 e 100\n\n");
+    printf("Números pares entre 1 e 100:\n\n");
     
     while(x <= 100) {
     	if(x%2 == 0) {
-    		printf("\n%i é par\n", x);
+    		printf("[%i] ", x);
 		}
 		x++;
 	}

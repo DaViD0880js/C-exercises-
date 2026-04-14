@@ -5,7 +5,7 @@ int main (void) {
     
     setlocale(LC_ALL, "Portuguese");
     
-    int nmrDigitado, numero, contador = 1, checkPrimo, pares = 0, impares =0, primos= 0;
+    int nmrDigitado, numero, contador = 1, checkPrimo, pares = 0, impares = 0, primos = 0;
     
     printf("-- Checagem de 10 Números --\n");
     
@@ -21,8 +21,8 @@ int main (void) {
 		
 		if(nmrDigitado == 2 || nmrDigitado == 3) {
 			primos++;
-		} else {
 			
+		} else {
 			numero = nmrDigitado;
 			checkPrimo = 0;
 			

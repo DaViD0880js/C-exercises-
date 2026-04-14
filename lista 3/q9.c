@@ -45,7 +45,7 @@ int main (void) {
 				printf("\nDigite somente 1 ou 2 (0 para encerrar)\n");
 			}
 		}
-    	
+		
 	} while (check > 0);
 	
     return 0;

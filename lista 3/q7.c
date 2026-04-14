@@ -8,7 +8,8 @@ int main (void) {
     int numero, menor = 2147483647, maior = 0;
     
     do {
-    	printf("\nDigite números INTEIROS (negativo para encerrar): ");
+    	printf("\nDigite um número INTEIRO");
+    	printf("\n(Digite um número negativo para encerrar): ");
     	scanf("%i", &numero);
     	
     	if(numero > maior) {
